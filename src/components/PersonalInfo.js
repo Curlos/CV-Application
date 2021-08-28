@@ -10,7 +10,7 @@ const PersonalInfo = ({ personalInfo, handleChangePersonalInfo }) => {
       <input type="text" name="address" onChange={handleChangePersonalInfo} placeholder="Address" value={personalInfo['address']}/>
       <input type="text" name="phoneNumber" onChange={handleChangePersonalInfo} placeholder="Phone number" value={personalInfo['phoneNumber']}/>
       <input type="text" name="email" onChange={handleChangePersonalInfo} placeholder="Email" value={personalInfo['email']}/>
-      <input type="text" name="description" onChange={handleChangePersonalInfo} placeholder="Description" value={personalInfo['description']}/>
+      <textarea type="text" name="description" onChange={handleChangePersonalInfo} placeholder="Description" value={personalInfo['description']}/>
     </div>
   )
 }
