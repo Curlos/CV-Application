@@ -1,4 +1,4 @@
-const Preview = () => {
+const Preview = ({ personalInfo, experience, education }) => {
   return (
     <div>
       
